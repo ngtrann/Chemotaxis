@@ -39,7 +39,7 @@ class Water
   } 
       
     if (mouseY>myY) {
-      myY = myY + (int)(Math.random()*6); 
+      myY = myY + (int)(Math.random()*6)-1; 
     }
     else if (myY > mouseY) {
       myY = myY + (int)(Math.random()*6)-4; 
